@@ -3,5 +3,6 @@ function validateForm() {
     if (x == "") {
       alert("Name must be filled out");
       return false;
+      return true;
     }
   }
