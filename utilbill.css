@@ -32,4 +32,8 @@ label1 {
             border-top: 1.5px solid #000000;
             }
       
+      .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
       
