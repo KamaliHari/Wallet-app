@@ -10,7 +10,13 @@ var con = mysql.createConnection({
 con.connect(function(err) {
     if (err) throw err;
     con.query("SELECT id,firstname FROM Customer_info", function (err, result, fields) {
-      if (err) throw err;
+      if (err) 
+      {
+        throw err;
+      }
+      else{
+        
+      }
       console.log(result);
     });
   });

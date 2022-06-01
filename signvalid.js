@@ -7,14 +7,14 @@ function validate() {
         
     }
     var y= document.signup.email.value;
-    if (y="") {
+    if (y=="") {
         alert("Please enter Valid email!");
         return false;
         
     }
     var z= document.signup.mobileno.value;
-    if (y="") {
-        alert("Please enter Valid email!");
+    if (z=="") {
+        alert("Please enter Valid mobile!");
         return false;
         
     }    
